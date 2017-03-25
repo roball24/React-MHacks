@@ -3,5 +3,5 @@ import { render } from 'react-dom';
 import ThemeWrapper from './ThemeWrapper.jsx';
 
 render((
-	<ThemeWrapper/>
+	<ThemeWrapper theme="new"/>
 ), document.getElementById('app'));
