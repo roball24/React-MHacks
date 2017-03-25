@@ -1,6 +1,7 @@
 import React from 'react';
 import { render } from 'react-dom';
+import ThemeWrapper from './ThemeWrapper.jsx';
 
 render((
-	<h1>Hello</h1>
+	<ThemeWrapper/>
 ), document.getElementById('app'));
